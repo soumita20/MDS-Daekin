@@ -12,7 +12,7 @@ from PIL import Image,ImageDraw, ImageFont
 from array import array
 from PIL import Image
 
-subscription_key = "d1991707813b4e3bad77eb82abd2b18e"
+subscription_key = ""
 endpoint = "https://cvsc154point2d.cognitiveservices.azure.com/"
 computervision_client = ComputerVisionClient(endpoint,CognitiveServicesCredentials(subscription_key))
 
